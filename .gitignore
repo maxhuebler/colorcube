@@ -1,16 +1,16 @@
-# Unity generated and a few customs #
-# ================================= #
-Temp/*
-Library/*
-Builds/*
-Obj/*
-WebBuild/*
-WindowsBuild/*
-
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Builds/
+ 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
-ExportedObj/*
+ExportedObj/
 *.svd
 *.userprefs
 *.csproj
@@ -20,15 +20,7 @@ ExportedObj/*
 *.user
 *.unityproj
 *.booproj
-*.log
-# Ignore UnityVS so users can use different versions
-Assets/UnityVS/*
-
-#ignoring pidb, they are just code completion caching data according to:
-# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
-*.pidb
-*.userprefs
-
+ 
 # ============ #
 # OS generated #
 # ============ #
@@ -40,10 +32,3 @@ Assets/UnityVS/*
 Icon?
 ehthumbs.db
 Thumbs.db
-
-# Unity3D Generated File On Crash Reports
-sysinfo.txt
-
-# Builds
-*.apk
-*.unitypackage
