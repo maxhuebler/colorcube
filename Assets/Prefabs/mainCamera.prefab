@@ -212,6 +212,9 @@ MonoBehaviour:
   bluePlatform: {fileID: 444044, guid: 49f3840e9f214bf4fa4c9c06734f2632, type: 2}
   redPlatform: {fileID: 441134, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
   greenPlatform: {fileID: 466100, guid: 65b59a64c9439004b86a9c63e3cd7061, type: 2}
+  menu: {fileID: 0}
+  score: {fileID: 0}
+  pause: {fileID: 0}
 --- !u!114 &11475762
 MonoBehaviour:
   m_ObjectHideFlags: 1

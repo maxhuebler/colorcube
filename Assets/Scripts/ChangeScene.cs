@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-	public Transform button;
-
 	public void ChangeToScene (string sceneToChangeTo)
 	{
 		SceneManager.LoadScene(sceneToChangeTo);
+	}
+
+	public void RestartScene()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 }

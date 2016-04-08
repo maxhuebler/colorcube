@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,15 +9,19 @@ public class GameManager : MonoBehaviour
 	public Transform redPlatform;
 	public Transform greenPlatform;
 
+	public GameObject menu;
+	public GameObject score;
+	public GameObject pause;
+
 	private int platNumber;
 
 	private float platCheck;
 	private float spawnPlatformTo;
 
-
 	// Use this for initialization
 	void Start ()
 	{
+		Time.timeScale = 1;
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		player = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -38,25 +40,30 @@ public class GameManager : MonoBehaviour
 
 		float currentCameraHeight = transform.position.y;
 
-		float newHeighOfCamera = Mathf.Lerp(currentCameraHeight, playerHeightY, Time.deltaTime * 10);
+		float newHeightOfCamera = Mathf.Lerp(currentCameraHeight, playerHeightY, Time.deltaTime * 10);
 
 		if (playerHeightY > currentCameraHeight)
 		{
-			transform.position = new Vector3(transform.position.x, newHeighOfCamera, transform.position.z);
+			transform.position = new Vector3(transform.position.x, newHeightOfCamera, transform.position.z);
 		}
 		else
 		{
 			if(playerHeightY < (currentCameraHeight - 20f))
 			{
-				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+				Time.timeScale = 0;
+				ShowScoreboard();
 			}
+		}
+
+		if(playerHeightY > ScoreManager.score)
+		{
+			ScoreManager.score = (int)playerHeightY;
 		}
 	}
 
 	void PlatformManager()
 	{
 		platCheck = player.position.y + 15;
-
 		PlatformSpawner(platCheck + 15);
 	}
 
@@ -85,7 +92,15 @@ public class GameManager : MonoBehaviour
 			}
 			y += Random.Range(4f, 7f);
 		}
-
 		spawnPlatformTo = floatValue;
 	}
+
+	void ShowScoreboard()
+	{
+		ScoreManager.CheckHighScore();
+		menu.SetActive(true);
+		score.SetActive(false);
+		pause.SetActive(false);
+	}
 }
+

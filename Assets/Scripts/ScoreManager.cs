@@ -1,34 +1,38 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-
-    public float score;
-    public float best;
+    public static int score;
+    public static int highscore;
 
     public Transform player;
 
     public Text scoreText;
-    public Text bestText;
+    public Text scoreText2;
+    public Text highscoreText;
 
     // Use this for initialization
     void Start()
     {
         transform.position = player.position;
+        highscore = PlayerPrefs.GetInt("High Score", score);
         score = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        score = (Mathf.Round(Vector3.Distance(player.position, transform.position))) * 15;
+        scoreText.text = score.ToString();
+        scoreText2.text = score.ToString();
+        highscoreText.text = highscore.ToString();
+    }
 
-        if (score > best)
+    public static void CheckHighScore()
+    {
+        if (score > highscore)
         {
-            best = score;
+            PlayerPrefs.SetInt("High Score",score);
         }
-        bestText.text = best.ToString();
     }
 }

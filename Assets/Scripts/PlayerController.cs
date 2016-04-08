@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         if ((Mathf.Approximately(rb.velocity.y,0f) && grounded))
         {
             jump = true;
-            Debug.Log("Grounded and jumped");
+            //Debug.Log("Grounded and jumped");
         }
 
         if (jump)
