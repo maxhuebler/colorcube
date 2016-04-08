@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorCube.CSharp", "ColorCube.CSharp.csproj", "{5616C7C9-FF23-BB1E-0112-10E687CCE785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorCube.CSharp.Editor", "ColorCube.CSharp.Editor.csproj", "{3EC98452-14A0-A74D-1FAB-3AEBBBC7086A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5616C7C9-FF23-BB1E-0112-10E687CCE785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5616C7C9-FF23-BB1E-0112-10E687CCE785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5616C7C9-FF23-BB1E-0112-10E687CCE785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5616C7C9-FF23-BB1E-0112-10E687CCE785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC98452-14A0-A74D-1FAB-3AEBBBC7086A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC98452-14A0-A74D-1FAB-3AEBBBC7086A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC98452-14A0-A74D-1FAB-3AEBBBC7086A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC98452-14A0-A74D-1FAB-3AEBBBC7086A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

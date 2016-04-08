@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 62dd2993d0209ba45b24c8f69a7c716e
+timeCreated: 1459585845
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - whiteWhiteSprite: {fileID: 21300022, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - whiteBlueSprite: {fileID: 21300012, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - blueRedSprite: {fileID: 21300010, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - blueGreenSprite: {fileID: 21300024, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - blueBlueSprite: {fileID: 21300014, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - whiteRedSprite: {fileID: 21300020, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - redBlueSprite: {fileID: 21300000, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - redGreenSprite: {fileID: 21300018, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - redRedSprite: {fileID: 21300016, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - whiteGreenSprite: {fileID: 21300006, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - greenBlueSprite: {fileID: 21300008, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - greenRedSprite: {fileID: 21300002, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  - greenGreenSprite: {fileID: 21300004, guid: cfc43dfda274ab8428906cab8e721c1e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
