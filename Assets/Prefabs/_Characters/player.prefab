@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump: 0
   moveSpeed: 15
-  jumpForce: 700
+  jumpHeight: 600
   top_left: {fileID: 402216}
   bottom_right: {fileID: 459080}
   ground:

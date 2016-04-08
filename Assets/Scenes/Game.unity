@@ -170,6 +170,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6175744, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175744, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 25123124, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
+      propertyPath: m_UseColliderMask
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
   m_IsPrefabParent: 0

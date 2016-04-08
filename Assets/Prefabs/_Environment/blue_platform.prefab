@@ -96,10 +96,10 @@ PlatformEffector2D:
   m_UseColliderMask: 0
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
+  m_SurfaceArc: 145
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1

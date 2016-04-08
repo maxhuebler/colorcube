@@ -90,14 +90,14 @@ PlayerSettings:
     16:9: 1
     Others: 0
   bundleIdentifier: com.maxhuebler.colorcube
-  bundleVersion: 0.83
+  bundleVersion: 0.85
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
   productGUID: d06fc06be63871647bcdb0547737822f
-  AndroidBundleVersionCode: 8
+  AndroidBundleVersionCode: 9
   AndroidMinSdkVersion: 16
   AndroidPreferredInstallLocation: 1
   aotOptions: 
