@@ -2,7 +2,7 @@
 
 public class VerticalMovingPlatform : MonoBehaviour
 {
-	float platformSpeed = 2f;
+	public float platformSpeed = 2f;
 
 	float startPoint;
 	bool endPoint;

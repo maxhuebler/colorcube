@@ -2,8 +2,7 @@
 
 public class PauseScript : MonoBehaviour
 {
-
-	public bool paused;
+	bool paused;
 
 	// Use this for initialization
 	void Start ()

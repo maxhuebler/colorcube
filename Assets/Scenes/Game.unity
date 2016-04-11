@@ -184,18 +184,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6175744, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
-      propertyPath: m_UsedByEffector
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6175744, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 25123124, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
-      propertyPath: m_UseColliderMask
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51db74053b83a4e4ab3b53c477e0f909, type: 2}
   m_IsPrefabParent: 0
@@ -376,7 +364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681a3167b93d61f40a6476aebb510fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
 --- !u!4 &1257599237
 Transform:
   m_ObjectHideFlags: 0

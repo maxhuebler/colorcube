@@ -2,7 +2,7 @@
 
 public class HorizontalMovingPlatform : MonoBehaviour
 {
-	float platformSpeed = 2f;
+	public float platformSpeed = 2f;
 	bool endPoint;
 	
 	// Update is called once per frame

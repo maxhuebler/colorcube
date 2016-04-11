@@ -2,7 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
-    [HideInInspector] public bool jump = false;
+    bool jump = false;
 
     public float moveSpeed = 5f;
     public float jumpHeight = 500f;
