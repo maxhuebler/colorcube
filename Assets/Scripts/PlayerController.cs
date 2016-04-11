@@ -2,8 +2,6 @@
 
 public class PlayerController : MonoBehaviour
 {
-    bool jump = false;
-
     public float moveSpeed = 5f;
     public float jumpHeight = 500f;
 
@@ -13,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool grounded;
+    private bool jump = false;
 
     void Awake()
     {
@@ -26,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(x * moveSpeed,rb.velocity.y);
 
-        if ((Mathf.Approximately(rb.velocity.y,0f) && grounded))
+        if ((Mathf.Approximately(rb.velocity.y,0f)) && grounded && !jump)
         {
             jump = true;
             //Debug.Log("Grounded and jumped");

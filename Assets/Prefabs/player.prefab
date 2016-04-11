@@ -183,8 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7e6fd81295826a4ca3472281e1b7047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump: 0
-  moveSpeed: 15
+  moveSpeed: 30
   jumpHeight: 600
   top_left: {fileID: 402216}
   bottom_right: {fileID: 459080}

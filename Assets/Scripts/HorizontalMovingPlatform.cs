@@ -6,7 +6,7 @@ public class HorizontalMovingPlatform : MonoBehaviour
 	bool endPoint;
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate()
 	{
 		if (endPoint)
 		{

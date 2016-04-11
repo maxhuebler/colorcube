@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c38d79c99d3a754f8f17f2a65f5dc09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 729200419}
 --- !u!1 &729200418
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +342,7 @@ GameObject:
   - 222: {fileID: 1459905159}
   - 114: {fileID: 1459905158}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Color Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +391,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 140
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

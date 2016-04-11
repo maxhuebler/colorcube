@@ -5,7 +5,7 @@ public class PauseScript : MonoBehaviour
 	bool paused;
 
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
 		paused = false;
 	}

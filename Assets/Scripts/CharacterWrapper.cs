@@ -3,7 +3,7 @@
 public class CharacterWrapper : MonoBehaviour
 {
 	// Update is called once per frame
-	void FixedUpdate ()
+	void FixedUpdate()
 	{
 		if(transform.position.x <= -4.6f)
 		{

@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 	private float spawnPlatformTo;
 
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
 		Time.timeScale = 1;
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update()
 	{
 		playerHeightY = player.position.y;
 

@@ -19,7 +19,7 @@ public class SpriteUpdater : MonoBehaviour
 	private SpriteRenderer spriteRenderer;
 
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
 		spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 	}
