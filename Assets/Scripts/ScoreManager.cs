@@ -23,16 +23,16 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = score.ToString();
-        scoreText2.text = score.ToString();
+        scoreText.text = "" + (score * 50);
+        scoreText2.text = "" + (score * 50);
         highscoreText.text = highscore.ToString();
     }
 
     public static void CheckHighScore()
     {
-        if (score > highscore)
+        if ((score * 50) > highscore)
         {
-            PlayerPrefs.SetInt("High Score",score);
+            PlayerPrefs.SetInt("High Score",(score * 50));
         }
     }
 }
