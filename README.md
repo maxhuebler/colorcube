@@ -1,5 +1,6 @@
 # Color Cube
-A simple Android Game made with Unity3D, download the released version here: 
+A simple Android Game made with Unity3D, download the released 1.0 version here:
+
 https://play.google.com/store/apps/details?id=com.maxhuebler.colorcube
 
 ## Features
@@ -10,6 +11,6 @@ https://play.google.com/store/apps/details?id=com.maxhuebler.colorcube
 * Gameplay pausing
 * Death mechanics
 
-## Gameplay Screenshots
+## Gameplay Screenshot
 
-![Gameplay](https://lh3.googleusercontent.com/Olj8_R58VXTVe_NGEgKmBaitlLxrrpddMcnO2Shu0MWyxlxeT1lNRl25SwOTNP0HeSPH=w1088-h715-rw)![Gameplay2](https://lh3.googleusercontent.com/Olj8_R58VXTVe_NGEgKmBaitlLxrrpddMcnO2Shu0MWyxlxeT1lNRl25SwOTNP0HeSPH=w1088-h715-rw)
+![Gameplay](https://lh3.googleusercontent.com/q5W_Go-24b-VaQDnrWAqIf_wzl5K-Gqf8rT2eXTJUyGYyY4-dLpxAGF2cpdku1KH4hzb=w1280-h842-rw)
